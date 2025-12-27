@@ -241,7 +241,9 @@ az login --use-device-code
 
 ```
 
-<img width="628" height="262" alt="DC" src="https://github.com/user-attachments/assets/691d7a12-5f75-4747-adc4-644c6bd056bc" />
+
+<img width="100%" alt="DC" src="https://github.com/user-attachments/assets/691d7a12-5f75-4747-adc4-644c6bd056bc" />
+
 
 <aside>
 📢 Device code phishing -
